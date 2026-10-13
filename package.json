@@ -1,0 +1,11 @@
+{
+  "name": "dogzy-marketplace",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev:web": "pnpm --filter web dev",
+    "dev:api": "pnpm --filter api dev",
+    "build": "pnpm -r build",
+    "test": "pnpm -r test"
+  }
+}

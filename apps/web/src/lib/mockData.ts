@@ -1,0 +1,63 @@
+export const demoStats = {
+  tvl: "1,240 AVAX",
+  volume24h: "312 AVAX",
+  minted: 1824,
+  holders: 563,
+};
+
+export const demoNfts = [
+  {
+    id: 1,
+    name: "DOGZY Genesis #1",
+    image: "https://picsum.photos/seed/dogzy1/800/800",
+    priceAvax: 0.35,
+    rarity: "Common",
+    owner: "0x12...ab9",
+    listed: true,
+  },
+  {
+    id: 2,
+    name: "DOGZY Genesis #2",
+    image: "https://picsum.photos/seed/dogzy2/800/800",
+    priceAvax: 0.55,
+    rarity: "Rare",
+    owner: "0x77...c10",
+    listed: true,
+  },
+  {
+    id: 3,
+    name: "DOGZY Genesis #3",
+    image: "https://picsum.photos/seed/dogzy3/800/800",
+    priceAvax: 1.8,
+    rarity: "Legendary",
+    owner: "0x44...8fd",
+    listed: true,
+  },
+  {
+    id: 4,
+    name: "DOGZY Genesis #4",
+    image: "https://picsum.photos/seed/dogzy4/800/800",
+    priceAvax: 0.28,
+    rarity: "Common",
+    owner: "0x98...1ce",
+    listed: false,
+  },
+  {
+    id: 5,
+    name: "DOGZY Genesis #5",
+    image: "https://picsum.photos/seed/dogzy5/800/800",
+    priceAvax: 1.1,
+    rarity: "Rare",
+    owner: "0xa3...ee4",
+    listed: true,
+  },
+  {
+    id: 6,
+    name: "DOGZY Genesis #6",
+    image: "https://picsum.photos/seed/dogzy6/800/800",
+    priceAvax: 2.4,
+    rarity: "Legendary",
+    owner: "0x8d...db2",
+    listed: true,
+  },
+];
